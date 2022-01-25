@@ -5,10 +5,8 @@ a = int(input("write a "))
 b = int(input("write b "))
 c = int(input("write c "))
 d = (b**2) - (4*a*c)
-otvet = int
 
 def answer():
-    global otvet
     otvet = ((b*-1)+ d) / (2*a)
     print("x = ", + otvet)
 
