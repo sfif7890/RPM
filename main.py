@@ -12,7 +12,7 @@ def answer():
 
 if d < 0:
     print("Нет ответа")
-if d > 0 :
+if d >= 0 :
     d = math.sqrt(d)
 if d == 0:
     answer()
