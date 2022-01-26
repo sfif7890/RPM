@@ -1,9 +1,9 @@
 import math
 
 print("ax^2 + bx + c = 0")
-a = int(input("write a "))
-b = int(input("write b "))
-c = int(input("write c "))
+a = int(input("Введите a "))
+b = int(input("Введите b "))
+c = int(input("Введите c "))
 d = (b**2) - (4*a*c)
 
 def answer():
@@ -11,8 +11,9 @@ def answer():
     print("x = ", + otvet)
 
 if d < 0:
-    print("no answer")
-d = math.sqrt(d)
+    print("Нет ответа")
+if d > 0 :
+    d = math.sqrt(d)
 if d == 0:
     answer()
 if d > 0:
